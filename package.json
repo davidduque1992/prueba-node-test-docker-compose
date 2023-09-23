@@ -1,0 +1,24 @@
+{
+  "name": "practicanodejestsupertest",
+  "version": "1.0.0",
+  "description": "proyecto de prueba -> con test en node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch server.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "David Duque",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "nvm": "^0.0.4",
+    "zod": "^3.22.2"
+  }
+}
